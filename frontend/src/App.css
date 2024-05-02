@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff; 
+  padding: 10px;
+  background: url('games.jpg') #1a1a1a; 
+  background-size: cover;
+  background-position: center;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.register-container {
+  margin: 20px 0;
+}
+
+.register-title {
+  font-size: 2em;
+  color: #a50092;
+  text-align: center; 
+}
+
+.register-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid hsl(321, 100%, 36%); 
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  background-color: #1a1a1a; 
+  color: #fff; 
+}
+
+.register-button {
+  display: inline-block;
+  color: #fff;
+  background: #4caf50; 
+  padding: 12px 24px; 
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.register-button:hover {
+  background-color: #388e3c; 
+}
